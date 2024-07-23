@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.title {
+    padding-top:15px;
+    margin-left: 10px;
+    font-family: "Playwrite HR Lijeva",
+            cursive;
+    color: rgb(58, 96, 97);
+   
+}
+
+.review-1-container {
+    background-color: white;
+    border-radius: 3px;
+    width:600px;
+    height:70px;
+    margin: 9px;
+    box-shadow: 8px 8px 5px rgb(207, 209, 209);
+
+}
+
+.question {
+    text-align: center;
+    padding: 3px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.review-1-container {
+    display: flex;
+    /* Use flexbox to align items horizontally */
+    align-items: center;
+    /* Center items vertically within the container */
+}
+
+.question {
+    display: flex;
+    /* Use flexbox for internal layout */
+    align-items: center;
+    /* Center items vertically within the container */
+}
+
+.question h2 {
+    margin-left: 10px;
+    /* Adjust margin as needed */
+}
+
+.svg-link {
+    display: inline-block;
+    /* Ensure SVG is inline */
+    margin-right: 10px;
+    /* Adjust margin as needed */
+}
+
+svg {
+    margin-left: 5px;
+}
+
+
+ 
+.accordion {
+    border-style: none;
+    transition: 0.4s;
+    cursor:pointer;
+    width:100%;
+    border:none;
+    outline:none;
+
+
+
+}
+
+.panel {
+    display:none;
+    overflow:hidden;
+    padding-left:5px;
+
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
